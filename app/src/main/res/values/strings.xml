@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tanda Application</string>
+    <string name="test_string">test name</string>
+    <string name="web_content_placeholder">Web Content Placeholder</string>
+</resources>

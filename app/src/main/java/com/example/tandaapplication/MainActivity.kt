@@ -18,6 +18,8 @@ class MainActivity : HotwireActivity() {
     override fun navigatorConfigurations() = listOf(
         NavigatorConfiguration(
             name = "main",
+            // If building to a remote device, use the computers LAN IP
+            // If building to sim device use http://10.0.2.2:3000
             startLocation = "http://10.0.2.2:3000",
             navigatorHostId = R.id.main_nav_host
         )
